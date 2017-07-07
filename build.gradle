@@ -1,0 +1,16 @@
+group 'fizzbuzz'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+ext.junitVersion = '4.12'
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: junitVersion
+    testCompile 'com.greghaskins:spectrum:1.1.1'
+}

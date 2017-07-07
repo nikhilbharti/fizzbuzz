@@ -17,5 +17,6 @@ gradle-app.setting
 .idea/*
 
 # Gradle:
+.gradle/
 # .idea/gradle.xml
 # .idea/libraries
